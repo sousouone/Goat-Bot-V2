@@ -228,7 +228,7 @@ if (config.autoRestart) {
 		accessToken = await OAuth2_client.getAccessToken();
 	}
 	catch (err) {
-		throw new Error(getText("Goat", "googleApiTokenExpired"));
+	//	throw new Error(getText("Goat", "googleApiTokenExpired"));
 	}
 	const transporter = nodemailer.createTransport({
 		host: 'smtp.gmail.com',
