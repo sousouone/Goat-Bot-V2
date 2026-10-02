@@ -16,6 +16,21 @@ const { isHexColor, colors } = require("./func/colors.js");
 const Prism = require("./func/prism.js");
 
 const { config } = global.GoatBot;
+const gmailAccount = config?.credentials?.gmailAccount || {};
+const { clientId, clientSecret, refreshToken, apiKey: googleApiKey } = gmailAccount;
+
+let oauth2ClientForGGDrive = null;
+let driveApi = null;
+
+if (clientId && clientSecret && refreshToken) {
+	oauth2ClientForGGDrive = new google.auth.OAuth2(clientId, clientSecret, "https://developers.google.com/oauthplayground");
+	oauth2ClientForGGDrive.setCredentials({ refresh_token: refreshToken });
+	driveApi = google.drive({
+		version: 'v3',
+		auth: oauth2ClientForGGDrive
+	});
+}
+
 const { gmailAccount } = config.credentials;
 const { clientId, clientSecret, refreshToken, apiKey: googleApiKey } = gmailAccount;
 if (!clientId) {
