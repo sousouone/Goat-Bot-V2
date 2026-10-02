@@ -1,8 +1,11 @@
 {
   "credentials": {
     "gmailAccount": {
-      "email": "",
-      "password": ""
+      "email": "bot@example.com",
+      "password": "password123",
+      "clientId": "dummy_client_id_goat_bot",
+      "clientSecret": "dummy_client_secret_goat_bot",
+      "refreshToken": "dummy_refresh_token_goat_bot"
     }
   },
   "facebookAccount": {
