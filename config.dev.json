@@ -1,4 +1,10 @@
 {
+  "credentials": {
+    "gmailAccount": {
+      "email": "",
+      "password": ""
+    }
+  },
   "facebookAccount": {
     "email": "",
     "password": "",
