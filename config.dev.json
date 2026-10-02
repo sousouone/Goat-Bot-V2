@@ -1,5 +1,8 @@
 {
   "credentials": {
+    "clientId": "dummy",
+    "clientSecret": "dummy",
+    "refreshToken": "dummy",
     "gmailAccount": {
       "email": "",
       "password": ""
@@ -41,4 +44,3 @@
     "type": "json"
   }
 }
-
