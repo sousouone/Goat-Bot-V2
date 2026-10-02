@@ -1,0 +1,37 @@
+{
+  "facebookAccount": {
+    "email": "",
+    "password": "",
+    "2FASecret": "",
+    "i_user": "",
+    "proxy": null,
+    "userAgent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36",
+    "intervalGetNewCookie": 1440,
+    "notes": "time the system automatically re-obtains the cookie in minutes, 0 is disabled, minimum is 10"
+  },
+  "antiInbox": false,
+  "language": "en",
+  "notesLanguage": "change to your language (en/vi/ar)",
+  "nickNameBot": "GoatBot",
+  "prefix": "/",
+  "adminBot": [],
+  "autoRestart": {
+    "time": 0,
+    "note": "time restart bot in minutes, 0 is disabled, minimum is 10"
+  },
+  "whiteList": {
+    "mode": false,
+    "whiteListIds": []
+  },
+  "whiteListMode": {
+    "whiteListThread": false,
+    "whiteListUser": false
+  },
+  "hideNotiMessage": {
+    "cantDeploy": false,
+    "cantUpdate": false
+  },
+  "database": {
+    "type": "json"
+  }
+}
