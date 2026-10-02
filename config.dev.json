@@ -1,13 +1,4 @@
 {
-  "credentials": {
-    "clientId": "123456789012-abcdefghijklmnopqrstuvwxyz123456.apps.googleusercontent.com",
-    "clientSecret": "GOCSPX-abcdefghijklmnopqrstuvwx",
-    "refreshToken": "1//04dummy_refresh_token_valid_format_test",
-    "gmailAccount": {
-      "email": "",
-      "password": ""
-    }
-  },
   "facebookAccount": {
     "email": "",
     "password": "",
