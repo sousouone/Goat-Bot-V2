@@ -225,7 +225,7 @@ if (config.autoRestart) {
 	OAuth2_client.setCredentials({ refresh_token: refreshToken });
 	let accessToken;
 	try {
-		accessToken = await OAuth2_client.getAccessToken();
+	//	accessToken = await OAuth2_client.getAccessToken();
 	}
 	catch (err) {
 	//	throw new Error(getText("Goat", "googleApiTokenExpired"));
