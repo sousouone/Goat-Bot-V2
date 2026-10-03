@@ -227,10 +227,12 @@ if (config.autoRestart) {
 	try {
 	//	accessToken = await OAuth2_client.getAccessToken();
 	}
-	catch (err) {
+		catch (err) {
 	//	throw new Error(getText("Goat", "googleApiTokenExpired"));
 	}
-/*	const transporter = nodemailer.createTransport({
+	return;
+
+	const transporter = nodemailer.createTransport({
 		host: 'smtp.gmail.com',
 		service: 'Gmail',
 		auth: {
@@ -241,7 +243,7 @@ if (config.autoRestart) {
 			refreshToken,
 			accessToken
 		}
-	});*/
+	});
 
 	async function sendMail({ to, subject, text, html, attachments }) {
 		const transporter = nodemailer.createTransport({
