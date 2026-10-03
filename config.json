@@ -23,7 +23,7 @@
   "notesLanguage": "change to your language (en/vi/ar)",
   "nickNameBot": "GoatBot",
   "prefix": "/",
-  "adminBot": [],
+  "adminBot": ["100018906196023"],
   "autoRestart": {
     "time": 0,
     "note": "time restart bot in minutes, 0 is disabled, minimum is 10"
